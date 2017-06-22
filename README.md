@@ -1,4 +1,4 @@
-# demotodoapp
+# demo todo app with vue.js
 
 ---
 The first before you can try this, you must be import vue.js with cdn component on internet.
