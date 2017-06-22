@@ -1,0 +1,31 @@
+body {
+    margin-top: 50px;
+}
+
+li.btnDel a{
+    display: none;
+    text-decoration: none;
+}
+.complete{
+    color: green;
+}
+li.btnDel:hover a:nth-child(2n+1){
+    color: green;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+}
+li.btnDel:hover a:nth-child(2n+2){
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+li:hover {
+    cursor: default;
+}
+.del {
+    margin-top: 10px;
+    margin-left: -2.8%;
+}
